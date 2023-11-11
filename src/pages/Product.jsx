@@ -12,7 +12,7 @@ const Product = () => {
   // const product = all_product.find((e)=>e.id === Number(productId))?
   const product = all_product.find((e)=>e.id === Number(productId))
   return (
-    <div >
+    <div>
         <Breadcrums product ={product}/>
         <ProductDispaly product ={product}/>
         <DescriptionBox/>

@@ -1,5 +1,5 @@
 
-import React, { Component } from 'react'
+import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
 import { BrowserRouter, Route,Routes } from 'react-router-dom'
 import Shop from './pages/Shop'
@@ -11,8 +11,7 @@ import Footer from './footer/Footer'
 import men_banner from './Components/assets/banner_mens.png'
 import womens_banner from './Components/assets/banner_women.png'
 import kids_banner from './Components/assets/banner_kids.png'
-export default class App extends Component {
-  render() {
+export default function App(){
     return (
       <div>
        <BrowserRouter>
@@ -29,9 +28,8 @@ export default class App extends Component {
         </Routes>
         <Footer/>
        </BrowserRouter>
-       
       </div>
     )
   }
-}
+
 

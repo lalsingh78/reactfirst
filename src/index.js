@@ -10,7 +10,6 @@ root.render(
     <Shopcontextprovider>
       <App />
     </Shopcontextprovider>
-   
   </React.StrictMode>
 );
 
